@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashoura</title>
+    <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&family=Roboto:ital,wght@0,100;1,100&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
+     
+      
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+      <!-- style.css -->
+      <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <img class="logo-1" src="./Assets/logo.png" alt="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-3 mb-lg-2 ml-2">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="./features.html"  role="button" data-bs-toggle="dropdown"  >
+                 Featurs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li onclick="(function() { document.getElementById('feat1').className=('show')  })()" ><a href="#"  class="fe" >General </a></li>
+                  <li onclick="(function() { document.getElementById('feat2').className=('show')  })()"><a href="#" 
+                      class="fe">Question Types</a></li>
+                  <li onclick="(function() { document.getElementById('feat3').className=('show')  })()"><a href="#" 
+                      
+                      class="fe">Surveys Responses</a></li>
+                </ul>
+                <div class="feat-imgs">
+                  <img id="feat1" class="hide" src="./Assets/feat1.png" alt="">
+                  <img id="feat2" class="hide" src="./Assets/feat2.png" alt="">
+                  <img id="feat3" class="hide" src="./Assets/feat3.png" alt="">
+                  <img id="feat4" class="hide" src="./Assets/feat4.png" alt="">
+              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <a class="nav-link dropdown-toggle" href="#" id="arabia" role="button" data-bs-toggle="dropdown" >
+                    العربيه
+                   </a>
+              <button class="btn-1" >Get Started</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- home page -->
+      <div class="home-page">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+                <div class="text">
+                    <h1>Intelligent Surveys for Informed  <span>Decisions</span></h1> 
+                    <p>Collects and analyzes responses from participants to gather valuable insights</p>
+                    <img class="img-rectangle" src="./Assets/rectangle1.png" alt="">
+                    <img class="img-rectangle" src="./Assets/rectangle1.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="images">
+                  <img class="img-1" src="./Assets/Nvector.png" alt="">
+                  <img class="img-serve1" src="./Assets/serve1.png" alt="">
+                  <img class="img-serve2" src="./Assets/serve2.png" alt="">
+                  <img class="img-serve3" src="./Assets/serve3.png" alt="">
+                  <img class="img-serve4" src="./Assets/serve4.png" alt="">
+                  <img class="img-serve5" src="./Assets/serve5.png" alt="">
+                </div>
+            </div>
+          
+        </div>
+    </div>
+      </div>
+      <!-- header-slider -->
+<div class="header-slider"style="margin-top:2em;">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <div class="text-2">
+                <h1>Questions That Make Decisions Driven by Data!</h1> 
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+  
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper-wrapper">
+          
+                
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <img src="./Assets/swiper1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <img src="./Assets/swiper2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <img src="./Assets/swiper3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <img src="./Assets/swiper4.png" alt="">
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- home card -->
+<div class="home-card" style="margin-top:5em;">
+    <div class="container">
+        <div class="row">
+            <div class="text-2">
+                <h2>Surveys that Drive Success</h2> 
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img src="./Assets/card1.png" alt="">
+               </div>
+               <div class="col-md-6 col-sm-12">
+                <img src="./Assets/card2.png" alt="">
+               </div>
+               <div class="col-md-6 col-sm-12">
+                <img src="./Assets/card3.png" alt="">
+               </div>
+               <div class="col-md-6 col-sm-12">
+                <img src="./Assets/card4.png" alt="">
+               </div>
+        </div>
+        <div class="header-component">
+            <div class="col-md-12">
+                <div class="text-3">
+                    <img class="img-star1" src="./Assets/star1.png" alt="">
+                    <h2>Questions That Make Decisions Driven by Data!</h2> 
+                    <img class="img-star3" src="./Assets/star3.png" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur. Placerat eleifend vulputate turpis magna cras. Egestas vitae et tempus sed duis senectus amet cursus. A amet vestibulum nisi nunc.</p>
+                </div>
+                <img class="img-star2" src="./Assets/star2.png" alt="">
+                <img class="component-img1" src="./Assets/component1.png" alt="">
+                <img class="component-img2" src="./Assets/componenet2.png" alt="">
+                <img class="component-img3" src="./Assets/component3.png" alt="">
+                </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- home card2  -->
+<div class="home-card2" style="margin-top:5em;">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="text-card">
+                <h1>Elevate Your Insights </h1> 
+                <p>We offer a variety of response options, including multiple-choice, rating scales, and open-ended questions, to accommodate different preferences.</p>
+            </div>
+            <img class="card2-img" src="./Assets/vector4.png" alt="">
+          <div class="image-cards">
+            <img class="img1" src="./Assets/cardhome2.png" alt="">
+            <img class="img1" src="./Assets/cardhome3.png" alt="">
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- header slider2 -->
+<div class="header-slider"style="margin-top:2em;">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <div class="text-2">
+                <h2>Insightful Surveys: Your Path to Understanding</h2> 
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+  
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper-wrapper">
+          
+                
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <img src="./Assets/slide1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <img src="./Assets/slide2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <img src="./Assets/slide3.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div class="free-trial" style="margin-top:5em;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <img class="imgfree" src="./Assets/Vector3.png"> -->
+          <h1>Free Trial</h1> 
+          <h2>15 Days!</h2> 
+          <p>Collects and analyzes responses from participants
+              to gather valuable insights</p>
+      
+        </div>
+        <div class="col-md-6">
+          <form class="form-item">
+            <div class="content-text">
+            <h3>Email Address</h3>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter the email address...l">
+                <button class="btn5">Submit</button>
+            </div>
+        </form>
+      </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+    <div class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <img class="foot-img" src="./Assets/footer img.png" alt="">
+          <h4 class="footer-text">Copyright © 2023. Mashoura .All rights reserved</h4>
+          <div class="icon">
+              <i  class="fab fa-facebook" ></i>
+              <i class="fab fa-twitter"></i>
+               <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="./script.js"></script>
+</body>
+</html>

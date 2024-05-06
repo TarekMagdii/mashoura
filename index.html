@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashoura</title>
+    <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&family=Roboto:ital,wght@0,100;1,100&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
+     
+      
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+      <!-- style.css -->
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <img class="logo-1" src="./Assets/logo.png" alt="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-3 mb-lg-2 ml-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Featurs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="d-flex " 
+                  onmouseover="(function() {
+                     document.getElementById('feat1').className=('show drop-imgs') 
+                     document.getElementById('feat2').className=('hide drop-imgs')
+                     document.getElementById('feat3').className=('hide drop-imgs')
+                      })()"  >
+                    <a class="dropdown-item"  href="./features.html"> General</a>
+                   
+                    <div><img id="feat1" class="hide drop-imgs" src="./Assets/feat1.png" alt=""></div>
+                  
+                </li>
+                  <li class="d-flex "
+                   onmouseover="(function() {
+                     document.getElementById('feat2').className=('show drop-imgs') 
+                     document.getElementById('feat1').className=('hide drop-imgs') 
+                     document.getElementById('feat3').className=('hide drop-imgs')
+                      })()">
+                    <a  class="dropdown-item" href="./features.html">Question Types </a>
+                    
+                    <div><img id="feat2" class="hide drop-imgs" src="./Assets/feat2.png" alt=""></div>
+                  </li>
+                  <li class="d-flex " onmouseover="(function() { 
+                   document.getElementById('feat3').className=('show drop-imgs') 
+                   document.getElementById('feat2').className=('hide drop-imgs') 
+                     document.getElementById('feat1').className=('hide drop-imgs') 
+                    })()">
+                    <a class="dropdown-item" href="./features.html">Surveys Responses</a>
+                    
+                    <div><img id="feat3" class="hide drop-imgs" src="./Assets/feat3.png" alt=""></div>
+                  </li>
+                </ul>
+                <!-- <div class="feat-imgs">
+                  <img id="feat1" class="hide drop-imgs" src="./Assets/feat1.png" alt="">
+                  <img id="feat2" class="hide drop-imgs" src="./Assets/feat2.png" alt="">
+                  <img id="feat3" class="hide drop-imgs" src="./Assets/feat3.png" alt="">
+                  <img id="feat4" class="hide drop-imgs" src="./Assets/feat4.png" alt="">
+              </div> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+              </li>
+            </ul>
+            
+                
+              
+              <li class="nav-item ">
+                <a class="nav-link dropdown-toggle" href="#" id="arabia" role="button" data-bs-toggle="dropdown" >
+                  العربيه
+                 </a>
+              </li>
+              <li class="nav-item">
+              <button class="btn-1" >Get Started</button>
+             
+              </li>
+          </div>
+        </div>
+      </nav>
+      <!-- home section -->
+      <section class="home" id="home">
+        <div class="content">
+            <img class="img-1" src="./Assets/Vector.png">
+            <img class="img-p1" src="./Assets/person1.png" alt="">
+            <img class="fr1" src="./Assets/frame1.png" alt="">
+            <img class="fr2" src="./Assets/frame2.png" alt="frame2">
+            <img class="img-p2" src="./Assets/person2.png" alt="">
+            <img class="img-p3" src="./Assets/persona3.png" alt="">
+          
+        </div>
+        <div class="text">
+            <h1>When a Survey Tool Connecting <span class="tool"></span> Doots..</h1> 
+            <p>Collects and analyzes responses from participants to gather valuable insights</p>
+        </div>
+        <button class="btn-2">Get Started</button>
+
+      </section>
+      <!-- magical circal section -->
+      <div class="magical">
+      <div class="container" style="margin-top: 12em;">
+        <div class="row" id="magical-circle">
+            <div class="col-md-6">
+                 <div class="magical-text">
+                <h1>Magical circle can Contain more than <span>120 Types!</span></h1>
+                <p>Collects and analyzes responses from participants to gather valuable insights</p>
+                </div>
+                <button class="btn-3" >Try this out</button>
+            </div>
+
+            <div class="col-md-6 key-dev">
+                <img class="magical-img" src="./Assets/frame3.png">
+                <img class="magical-img2" onclick="(function() {
+                  document.getElementById('key-imgg').className=('key-img') 
+                   })()" src="./Assets/frame4.png">
+                <img class="hide" id="key-imgg" src="./Assets/keyframe.png">
+            </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- key feature -->
+    <div class="feature" style="margin-top: 11em;">
+            <div class="row" id="key-feature">
+                <div class="col-md-12">
+                    <img class="feature-img" src="./Assets/frame5.png">
+                </div>
+          </div>
+          <!-- questions -->
+          <div class="questions">
+            <div class="container" style="margin-top: 10em;">
+                <div class="row">
+                    <h1>Questions That Make Decisions  Driven by Data!</h1>
+                    <div class="col-lg-6  col-sm-12">
+                        <img class="img-rat2" src="./Assets/rat2.png">
+                        <h2 class="question-text1">How likely is it that you would
+                            Recommend to a friend or colleague?</h2>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <img class="img-frame7 " src="./Assets/Frame7.png">
+                    </div>
+                    
+
+                    <div class="col-lg-6 col-sm-12">
+                        <img class="img-frame7 " src="./Assets/Chart 4.png">
+                    </div>
+                      <div class="col-lg-6  col-sm-12">
+                        <div class="question-textbox">
+                        <img class="img-frame8" src="./Assets/Frame8.png">
+                        <h2 class="question-text2">How likely is it that you would
+                            Recommend to a friend or colleague?</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-6  col-sm-12">
+                    <div class="question-textbox">
+                    <img class="img-frame8" src="./Assets/Frame9.png">
+                    <h2 class="question-text2">How likely is it that you would
+                        Recommend to a friend or colleague?</h2>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <img class="img-frame7 " src="./Assets/pie2.png">
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+                <img class="img-frame7 " src="./Assets/Chart 6.png">
+            </div>
+            <div class="col-lg-6  col-sm-12">
+                <div class="question-textbox">
+                <img class="img-frame8" src="./Assets/Frame10.png">
+                <h2 class="question-text2">How likely is it that you would
+                    Recommend to a friend or colleague?</h2>
+            </div>
+        </div>
+                   <h2 class="text-2">And way much moooore..👀</h2>
+            </div>
+          </div>
+        </div>
+ <!-- instruction bank -->
+ <div class="bank">
+<div class="container" style="margin-top: 10em;">
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="bank-text1">
+        <h1>Question Bank</h1>
+     <p>Collects and analyzes responses from participants 
+        to gather valuable insights
+        Collects and analyzes responses from participants 
+        to gather valuable insights</p>
+      </div>
+        <img class="swiper-imags" src="./Assets/ques1.png" alt="">
+      </div>
+      
+      <div class="swiper-slide"> 
+        <div class="bank-text1">
+        <h1>Multi Languages</h1>
+    <p>Collects and analyzes responses from participants 
+        to gather valuable insights
+        Collects and analyzes responses from participants 
+        to gather valuable insights</p>
+      </div>
+        <img class="swiper-imags"  src="./Assets/vector2.png" alt="">
+  
+      </div>
+
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div> 
+    
+</div>
+</div>
+ 
+<!-- header img -->
+<div class="header-page">
+    <div class="row">
+      <div class="col-md-12">
+            <img class="header-img" src="./Assets/beau2.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- slider -->
+  <div class="integrate">
+    <div class="container" style="margin-top: 5em;">
+      <div class="row">
+        <div class="col-lg-12">
+        <div class="text">
+        <h1>We Can <span>integrate</span>with</h1>
+        <p>Collects and analyzes responses from participants to gather valuable insights</p>
+
+        <div class="wrapper">
+          <div class="slider">
+              <div class="slide-track">
+                  <div class="slide">
+                      <img src="./Assets/sl1.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl2.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl3.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl4.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl5.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl6.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl1.png">
+                  </div>
+              </div>
+          </div>
+          <div class="slider">
+              <div class="slide-track">
+                  <div class="slide">
+                      <img src="./Assets/sl1.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl2.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl3.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl4.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl5.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl6.png">
+                  </div>
+                  <div class="slide">
+                      <img src="./Assets/sl1.png">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+    </div>
+  </div>
+  <!-- free trial -->
+
+  <div class="free-trial">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <img class="imgfree" src="./Assets/Vector3.png"> -->
+          <h1>Free Trial</h1> 
+          <h2>15 Days!</h2> 
+          <p>Collects and analyzes responses from participants
+              to gather valuable insights</p>
+      
+        </div>
+        <div class="col-md-6">
+          <form class="form-item">
+            <div class="content-text">
+            <h3>Email Address</h3>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter the email address...l">
+                <button class="btn5">Submit</button>
+            </div>
+        </form>
+      </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+    <div class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <img class="foot-img" src="./Assets/footer img.png" alt="">
+          <h4 class="footer-text">Copyright © 2023. Mashoura .All rights reserved</h4>
+          <div class="icon">
+              <i  class="fab fa-facebook" ></i>
+              <i class="fab fa-twitter"></i>
+               <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="./script.js"></script>
+    </body>
+</html>
